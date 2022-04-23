@@ -1,0 +1,13 @@
+# base image
+FROM golang:1.18.1-alpine3.15
+# set up work directory
+WORKDIR /opt/app
+# copy app files
+COPY . .
+# install dependencies
+RUN go mod download && \
+    go mod verify
+# build app
+RUN GOOS=linux go build -o /go/bin/app .
+# define run command
+ENTRYPOINT [ "app" ]
