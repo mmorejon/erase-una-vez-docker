@@ -10,7 +10,7 @@ RUN go mod download && \
 # copy app files
 COPY . .
 # build app
-RUN GOOS=linux go build -o /go/bin/app .
+RUN CGO_ENABLED=0 GOOS=linux go build -o /go/bin/app .
 
 # base image to run the app
 FROM scratch

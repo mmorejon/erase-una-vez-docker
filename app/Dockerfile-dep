@@ -8,6 +8,6 @@ COPY . .
 RUN go mod download && \
     go mod verify
 # build app
-RUN GOOS=linux go build -o /go/bin/app .
+RUN CGO_ENABLED=0 GOOS=linux go build -o /go/bin/app .
 # define run command
 ENTRYPOINT [ "app" ]

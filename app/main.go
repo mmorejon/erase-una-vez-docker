@@ -31,6 +31,11 @@ func main() {
 		panic(err)
 	}
 
+	if len(ii) == 0 {
+		fmt.Printf("\nThere are no images with the reference: %s\n", *imageName)
+		return
+	}
+
 	for _, i := range ii {
 		fmt.Println(strings.Join(i.RepoTags, ","))
 	}
