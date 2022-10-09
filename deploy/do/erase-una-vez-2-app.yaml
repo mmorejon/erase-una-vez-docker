@@ -1,0 +1,15 @@
+name: erase-una-vez-2-app
+region: ams
+services:
+- http_port: 8000
+  image:
+    deploy_on_push:
+      enabled: true
+    registry_type: DOCR
+    repository: erase-una-vez-2
+    tag: v0.3.0
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  name: erase-una-vez-2
+  routes:
+  - path: /
