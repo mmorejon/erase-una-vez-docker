@@ -2,11 +2,11 @@
     "ServiceName": "erase-una-vez-2",
     "SourceConfiguration": {
         "AuthenticationConfiguration": {
-            "AccessRoleArn": "arn:aws:iam::ACCOUNT-ID:role/service-role/AppRunnerECRAccessRole"
+            "AccessRoleArn": "arn:aws:iam::ACCOUNT_ID:role/service-role/AppRunnerECRAccessRole"
         },
         "ImageRepository": {
             "ImageRepositoryType": "ECR",
-            "ImageIdentifier": "ACCOUNT-ID.dkr.ecr.REGION.amazonaws.com/erase-una-vez-2:v0.3.0",
+            "ImageIdentifier": "ACCOUNT_ID.dkr.ecr.eu-west-1.amazonaws.com/erase-una-vez-2:v0.3.0",
             "ImageConfiguration": {
                 "Port": "8000"
             }
