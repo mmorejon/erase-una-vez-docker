@@ -1,0 +1,3 @@
+services:
+  scratch:
+    build: ./scratch
