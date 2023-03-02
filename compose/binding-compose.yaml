@@ -1,0 +1,12 @@
+# https://docs.docker.com/compose/compose-file/
+services:
+  app:
+    build:
+      context: ./app
+      dockerfile: Dockerfile-multi-stage
+    command: --image-name alpine
+    volumes:
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+        read_only: true

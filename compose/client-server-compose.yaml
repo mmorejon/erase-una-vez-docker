@@ -1,0 +1,18 @@
+# https://docs.docker.com/compose/compose-file/
+services:
+  server-a:
+    image: ghcr.io/mmorejon/erase-una-vez-2:v0.3.0
+    entrypoint: server
+    environment:
+      CHARACTER: "server a"
+  server-b:
+    image: ghcr.io/mmorejon/erase-una-vez-2:v0.3.0
+    entrypoint: server
+    environment:
+      CHARACTER: "server b"
+  client:
+    image: ghcr.io/mmorejon/erase-una-vez-2:v0.3.0
+    entrypoint: client
+    environment:
+      SERVER_URL: "http://server-b:8000"
+      ENDPOINT: "/echo"
