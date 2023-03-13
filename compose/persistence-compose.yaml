@@ -1,0 +1,22 @@
+# https://docs.docker.com/compose/compose-file/
+services:
+  redis-server:
+    image: redis:6.2.6
+    volumes:
+      - type: volume
+        source: redis
+        target: /data
+  redis-write:
+    image: redis:6.2.6
+    command: redis-cli -h redis-server set mykey somevalue
+    depends_on:
+      - redis-server
+  redis-read:
+    image: redis:6.2.6
+    command: redis-cli -h redis-server get mykey
+    depends_on:
+      - redis-server
+
+volumes:
+  redis:
+    name: "redis"
