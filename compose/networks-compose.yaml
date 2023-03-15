@@ -1,0 +1,36 @@
+# https://docs.docker.com/compose/compose-file/
+services:
+  server-a:
+    image: ghcr.io/mmorejon/erase-una-vez-2:v0.3.0
+    entrypoint: server
+    environment:
+      CHARACTER: "server a"
+    networks:
+      - tier-a
+  client-a:
+    image: ghcr.io/mmorejon/erase-una-vez-2:v0.3.0
+    entrypoint: client
+    environment:
+      SERVER_URL: "http://server-b:8000"
+      ENDPOINT: "/echo"
+    networks:
+      - tier-a
+  server-b:
+    image: ghcr.io/mmorejon/erase-una-vez-2:v0.3.0
+    entrypoint: server
+    environment:
+      CHARACTER: "server b"
+    networks:
+      - tier-b
+  client-b:
+    image: ghcr.io/mmorejon/erase-una-vez-2:v0.3.0
+    entrypoint: client
+    environment:
+      SERVER_URL: "http://server-b:8000"
+      ENDPOINT: "/echo"
+    networks:
+      - tier-b
+
+networks:
+  tier-a:
+  tier-b:
