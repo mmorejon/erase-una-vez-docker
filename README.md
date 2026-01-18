@@ -3,11 +3,13 @@
 
 <div align="center">
 
-<img src="./assets/2024-01.webp" alt="Portada Libro Érase una vez Kubernetes" width="300"/>
+<img src="./assets/cover-image.jpg.webp" alt="Portada Libro Érase una vez Kubernetes" width="300"/>
 
-[![Leanpub](https://img.shields.io/badge/Leanpub-Available-brightgreen?style=for-the-badge)](https://leanpub.com/erase-una-vez-docker)
 [![Amazon](https://img.shields.io/badge/Amazon-Kindle%20%2F%20Paperback-orange?style=for-the-badge&logo=amazon)](https://www.amazon.es/dp/B0C47NWRG7)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Leanpub](https://img.shields.io/badge/LeanPub-Descargar_Ebook-blue?style=for-the-badge&logo=leanpub)](https://leanpub.com/erase-una-vez-docker)
+[![GitHub Discussions](https://img.shields.io/github/discussions/mmorejon/erase-una-vez-docker?label=Comunidad%20y%20Dudas&style=for-the-badge&color=blue)](https://github.com/mmorejon/erase-una-vez-docker/discussions)
+[![Dejar Feedback](https://img.shields.io/badge/Reseñas-Deja%20tu%20opini%C3%B3n-ff69b4?style=for-the-badge&logo=github)](https://github.com/mmorejon/erase-una-vez-docker/discussions/categories/opiniones-y-feedback)
+
 
 **Repositorio oficial de código y ejemplos del libro "Érase una vez Docker".**
 
@@ -81,26 +83,26 @@ Si quieres dejar de "copiar comandos" y empezar a **entender la tecnología**, c
     docker image build -t website .
     ```
 
----
+## 🤝 Comunidad y Feedback
 
-## 🤝 Contribuir y Soporte
+Este proyecto está vivo gracias a los lectores. Como Leanpub no tiene un sistema de comentarios nativo, utilizamos este repositorio para centralizar la comunicación.
 
-Este es un proyecto vivo. La tecnología de contenedores avanza rápido, y este repositorio se actualiza para mantenerse al día.
+**¿Qué quieres hacer hoy?**
 
-* **¿Encontraste un error?** Abre un [Issue](https://github.com/mmorejon/erase-una-vez-docker/issues) y lo revisaremos.
-* **¿Tienes dudas sobre el libro?** Puedes contactarme directamente en mis redes.
-
----
-
-### Sobre el Autor
-
-**Manuel Morejón**
-*DevOps Engineer & Author*
-
-Ayudo a ingenieros y empresas a adoptar tecnologías Cloud Native.
-
-* 🌐 [Web Oficial](https://mmorejon.io)
-* 💼 [LinkedIn](https://www.linkedin.com/in/manuelmorejon/)
+| Tu objetivo | Dónde ir |
+| :--- | :--- |
+| 📣 **Dejar una reseña** | [**Ir a Discussions / Opiniones y Feedback**](https://github.com/mmorejon/erase-una-vez-k8s/discussions/categories/opiniones-y-feedback) <br> *Cuéntanos qué te ha parecido el libro.* |
+| 💬 **Tengo una duda** | [**Ir a Discussions / Q&A**](https://github.com/mmorejon/erase-una-vez-k8s/discussions/categories/q-a-preguntas-y-ayuda) <br> *Pregunta sobre conceptos, diagramas o ejercicios.* |
+| 💡 **Sugerir ideas** | [**Ir a Discussions / Ideas**](https://github.com/mmorejon/erase-una-vez-k8s/discussions/categories/ideas-para-futuras-ediciones) <br> *Propón temas para futuros capítulos.* |
+| 🐛 **Reportar errata** | [**Abrir un Issue**](https://github.com/mmorejon/erase-una-vez-k8s/issues/new) <br> *Solo para typos o errores en el código.* |
 
 ---
-*Si este repositorio te ha sido útil, considera darle una ⭐ estrella arriba a la derecha. ¡Ayuda a que más gente lo encuentre!*
+
+1.  ⭐ **¿Te ha sido útil?** Dale una **estrella** al repositorio (arriba a la derecha). Nos ayuda a llegar a más ingenieros.
+2.  📚 **¿Aún no tienes el libro?** Compra el libro en Amazon o Leanpub.
+
+<div align="center">
+    <a href="https://www.amazon.es/dp/B0C47NWRG7">
+        <img src="https://img.shields.io/badge/Amazon-Ver_Precio_y_Opiniones-orange?style=flat-square&logo=amazon" />
+    </a>
+</div>
