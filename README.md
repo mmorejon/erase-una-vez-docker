@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<img src="./assets/cover-image.jpg.webp" alt="Portada Libro Érase una vez Kubernetes" width="300"/>
+<img src="./assets/cover-image.jpg" alt="Portada Libro Érase una vez Kubernetes" width="300"/>
 
 [![Amazon](https://img.shields.io/badge/Amazon-Kindle%20%2F%20Paperback-orange?style=for-the-badge&logo=amazon)](https://www.amazon.es/dp/B0C47NWRG7)
 [![Leanpub](https://img.shields.io/badge/LeanPub-Descargar_Ebook-blue?style=for-the-badge&logo=leanpub)](https://leanpub.com/erase-una-vez-docker)
