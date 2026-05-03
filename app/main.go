@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
+	"github.com/docker/docker/api/types/image"
 	"github.com/docker/docker/client"
 )
 
@@ -21,7 +21,7 @@ func main() {
 		panic(err)
 	}
 
-	ii, err := cli.ImageList(ctx, types.ImageListOptions{
+	ii, err := cli.ImageList(ctx, image.ListOptions{
 		Filters: filters.NewArgs(filters.KeyValuePair{
 			Key:   "reference",
 			Value: *imageName,

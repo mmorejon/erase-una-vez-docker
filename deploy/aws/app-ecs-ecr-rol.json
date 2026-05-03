@@ -1,0 +1,5 @@
+{
+    "RoleName": "AppEcsEcrRole",
+    "Description": "This role gives ECS permission to access ECR",
+    "AssumeRolePolicyDocument": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"AllowEcsAccessToEcr\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"ecs-tasks.amazonaws.com\"},\"Action\":\"sts:AssumeRole\"}]}"
+}

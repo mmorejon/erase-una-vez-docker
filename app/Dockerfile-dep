@@ -1,5 +1,5 @@
 # base image
-FROM golang:1.18.1-alpine3.15
+FROM golang:1.26.1-alpine3.23
 # set up work directory
 WORKDIR /opt/app
 # copy app files

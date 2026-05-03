@@ -2,7 +2,7 @@
 services:
   app:
     build:
-      context: ./app
+      context: ../app
       dockerfile: Dockerfile-multi-stage
     command: --image-name alpine
     volumes:

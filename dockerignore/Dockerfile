@@ -1,2 +1,2 @@
-FROM alpine:3.15.4
+FROM alpine:3.23.3
 COPY . /myfiles

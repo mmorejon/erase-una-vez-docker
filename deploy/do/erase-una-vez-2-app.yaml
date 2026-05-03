@@ -7,7 +7,7 @@ services:
       enabled: true
     registry_type: DOCR
     repository: erase-una-vez-2
-    tag: v0.3.0
+    tag: v0.5.0
   instance_count: 1
   instance_size_slug: basic-xxs
   name: erase-una-vez-2

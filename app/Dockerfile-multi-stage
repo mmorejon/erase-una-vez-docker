@@ -1,5 +1,5 @@
 # base image to build and compile the code
-FROM golang:1.18.1-alpine3.15 as builder
+FROM golang:1.26.1-alpine3.23 AS builder
 # set up work directory
 WORKDIR /opt/app
 # copy files dependencies

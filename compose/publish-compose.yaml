@@ -1,7 +1,7 @@
 # https://docs.docker.com/compose/compose-file/
 services:
   website:
-    build: ./website
+    build: ../website
     ports:
       - target: 80
         published: 8000

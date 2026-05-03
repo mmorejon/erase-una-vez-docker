@@ -1,0 +1,5 @@
+{
+    "RoleName": "AppEcsInfraRole",
+    "Description": "This role gives ECS permission to access the infrastructure",
+    "AssumeRolePolicyDocument": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"AllowAccessInfrastructureForECSExpressServices\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"ecs.amazonaws.com\"},\"Action\":\"sts:AssumeRole\"}]}"
+}

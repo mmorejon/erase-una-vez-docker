@@ -1,4 +1,4 @@
-# Érase una vez Docker 🐳
+# Érase una vez Docker
 
 
 <div align="center">
