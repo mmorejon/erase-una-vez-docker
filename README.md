@@ -5,7 +5,8 @@
 
 <img src="./assets/cover-image.jpg" alt="Portada Libro Docker: Érase una vez" width="300"/>
 
-[![Amazon](https://img.shields.io/badge/Amazon-Kindle%20%2F%20Paperback-orange?style=for-the-badge&logo=amazon)](https://www.amazon.es/dp/B0C47NWRG7)
+[![Amazon](https://img.shields.io/badge/Amazon-Comprar_Ebook-orange?style=for-the-badge&logo=amazon)](https://www.amazon.es/dp/B0HHXXBHBQ)
+[![Amazon](https://img.shields.io/badge/Amazon-Comprar_en_Tapa_Blanda-orange?style=for-the-badge&logo=amazon)](https://www.amazon.es/dp/B0HHXYDRNW)
 [![Leanpub](https://img.shields.io/badge/LeanPub-Descargar_Ebook-blue?style=for-the-badge&logo=leanpub)](https://leanpub.com/erase-una-vez-docker)
 [![GitHub Discussions](https://img.shields.io/github/discussions/mmorejon/erase-una-vez-docker?label=Comunidad%20y%20Dudas&style=for-the-badge&color=blue)](https://github.com/mmorejon/erase-una-vez-docker/discussions)
 [![Dejar Feedback](https://img.shields.io/badge/Reseñas-Deja%20tu%20opini%C3%B3n-ff69b4?style=for-the-badge&logo=github)](https://github.com/mmorejon/erase-una-vez-docker/discussions/categories/opiniones-y-feedback)
@@ -58,7 +59,8 @@ Si quieres dejar de "copiar comandos" y empezar a **entender la tecnología**, c
 
 | Plataforma | Formato | Enlace |
 | :--- | :--- | :--- |
-| **Amazon** | Kindle / Tapa Blanda | [👉 Ver en Amazon](https://www.amazon.es/dp/B0C47NWRG7) |
+| **Amazon** | Kindle | [👉 Ver en Amazon](https://www.amazon.es/dp/B0HHXXBHBQ) |
+| **Amazon** | Tapa Blanda | [👉 Ver en Amazon](https://www.amazon.es/dp/B0HHXYDRNW) |
 | **Leanpub** | PDF / EPUB (DRM Free) | [👉 Ver en Leanpub](https://leanpub.com/erase-una-vez-docker) |
 
 > **💡 Pro Tip:** Si también te interesa Kubernetes, echa un vistazo al [Pack "Érase una vez Contenedores"](https://leanpub.com/b/erase-una-vez-contenedores) para conseguir ambos libros con descuento.
@@ -102,7 +104,10 @@ Este proyecto está vivo gracias a los lectores. Como Leanpub no tiene un sistem
 2.  📚 **¿Aún no tienes el libro?** Compra el libro en Amazon o Leanpub.
 
 <div align="center">
-    <a href="https://www.amazon.es/dp/B0C47NWRG7">
-        <img src="https://img.shields.io/badge/Amazon-Ver_Precio_y_Opiniones-orange?style=flat-square&logo=amazon" />
+    <a href="https://www.amazon.es/dp/B0HHXXBHBQ">
+        <img src="https://img.shields.io/badge/Amazon-Comprar_Ebook-orange?style=flat-square&logo=amazon" />
+    </a>
+    <a href="https://www.amazon.es/dp/B0HHXYDRNW">
+        <img src="https://img.shields.io/badge/Amazon-Comprar_Tapa_Blanda-orange?style=flat-square&logo=amazon" />
     </a>
 </div>
